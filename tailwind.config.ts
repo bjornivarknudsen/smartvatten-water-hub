@@ -14,8 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Montserrat', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Arial', 'sans-serif'],
-        montserrat: ['Montserrat', 'sans-serif'],
+        sans: ['Open Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Arial', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -26,6 +25,9 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          1: "hsl(var(--primary-1))",
+          2: "hsl(var(--primary-2))",
+          3: "hsl(var(--primary-3))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -51,9 +53,24 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        "smart-dark": "hsl(var(--smart-dark))",
-        "smart-coral": "hsl(var(--smart-coral))",
-        "smart-rose": "hsl(var(--smart-rose))",
+        info: {
+          DEFAULT: "hsl(var(--info))",
+          1: "hsl(var(--info-1))",
+          2: "hsl(var(--info-2))",
+        },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          1: "hsl(var(--success-1))",
+        },
+        danger: {
+          DEFAULT: "hsl(var(--danger))",
+          1: "hsl(var(--danger-1))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+          1: "hsl(var(--warning-1))",
+        },
+        global: "hsl(var(--global))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -69,6 +86,11 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        std: "0.4rem",
+        "std-sm": "0.2rem",
+      },
+      boxShadow: {
+        std: "0px 0px 24px 0px rgba(0, 0, 0, 0.05)",
       },
       keyframes: {
         "accordion-down": {
