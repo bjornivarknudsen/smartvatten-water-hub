@@ -8,97 +8,119 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 215 100% 17%;
+    --background: 277 100% 99%;
+    --foreground: 277 35% 21%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 100% 17%;
+    --card-foreground: 277 35% 21%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 100% 17%;
+    --popover-foreground: 277 35% 21%;
 
-    --primary: 217 100% 50%;
+    --primary: 277 35% 47%;
     --primary-foreground: 0 0% 100%;
+    --primary-1: 277 30% 89%;
+    --primary-2: 277 30% 95%;
+    --primary-3: 277 100% 99%;
 
-    --secondary: 186 100% 87%;
-    --secondary-foreground: 215 100% 17%;
+    --secondary: 277 35% 21%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 277 10% 95%;
+    --muted-foreground: 277 10% 45%;
 
-    --accent: 300 75% 93%;
-    --accent-foreground: 215 100% 17%;
+    --accent: 277 30% 89%;
+    --accent-foreground: 277 35% 21%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 351 60% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 217 100% 50%;
+    --border: 277 7% 85%;
+    --input: 277 7% 85%;
+    --ring: 277 35% 47%;
 
-    --radius: 1rem;
+    --radius: 0.4rem;
     
-    --smart-dark: 215 100% 17%;
-    --smart-coral: 186 100% 87%;
-    --smart-rose: 300 75% 93%;
+    --info: 277 10% 69%;
+    --info-1: 0 0% 48%;
+    --info-2: 277 7% 79%;
+    
+    --success: 125 53% 45%;
+    --success-1: 125 40% 93%;
+    
+    --danger: 351 60% 50%;
+    --danger-1: 351 60% 94%;
+    
+    --warning: 48 100% 45%;
+    --warning-1: 48 100% 90%;
+    
+    --global: 277 10% 68%;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 277 10% 68%;
+    --sidebar-primary: 277 35% 47%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 277 30% 95%;
+    --sidebar-accent-foreground: 277 35% 21%;
+    --sidebar-border: 277 7% 85%;
+    --sidebar-ring: 277 35% 47%;
   }
 
   .dark {
-    --background: 215 100% 17%;
-    --foreground: 0 0% 98%;
+    --background: 277 35% 15%;
+    --foreground: 277 30% 95%;
 
-    --card: 220 40% 20%;
-    --card-foreground: 0 0% 98%;
+    --card: 277 35% 18%;
+    --card-foreground: 277 30% 95%;
 
-    --popover: 215 100% 17%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 277 35% 18%;
+    --popover-foreground: 277 30% 95%;
 
-    --primary: 217 100% 50%;
+    --primary: 277 35% 47%;
     --primary-foreground: 0 0% 100%;
+    --primary-1: 277 30% 30%;
+    --primary-2: 277 30% 25%;
+    --primary-3: 277 35% 20%;
 
-    --secondary: 186 100% 30%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 277 35% 21%;
+    --secondary-foreground: 277 30% 95%;
 
-    --muted: 217.2 32.6% 25%;
-    --muted-foreground: 215 20.2% 70%;
+    --muted: 277 10% 25%;
+    --muted-foreground: 277 10% 65%;
 
-    --accent: 300 50% 40%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 277 30% 30%;
+    --accent-foreground: 277 30% 95%;
 
-    --destructive: 0 62.8% 50%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 351 60% 45%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 217.2 32.6% 25%;
-    --input: 217.2 32.6% 25%;
-    --ring: 217 100% 60%;
+    --border: 277 10% 25%;
+    --input: 277 10% 25%;
+    --ring: 277 35% 47%;
     
-    --smart-dark: 215 100% 17%;
-    --smart-coral: 186 100% 30%;
-    --smart-rose: 300 50% 40%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --info: 277 10% 50%;
+    --info-1: 0 0% 48%;
+    --info-2: 277 7% 40%;
+    
+    --success: 125 53% 40%;
+    --success-1: 125 40% 20%;
+    
+    --danger: 351 60% 45%;
+    --danger-1: 351 60% 20%;
+    
+    --warning: 48 100% 40%;
+    --warning-1: 48 100% 20%;
+    
+    --global: 277 10% 55%;
+    
+    --sidebar-background: 277 35% 18%;
+    --sidebar-foreground: 277 30% 95%;
+    --sidebar-primary: 277 35% 47%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 277 30% 25%;
+    --sidebar-accent-foreground: 277 30% 95%;
+    --sidebar-border: 277 10% 25%;
+    --sidebar-ring: 277 35% 47%;
   }
 }
 
@@ -109,10 +131,10 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
   }
 }
